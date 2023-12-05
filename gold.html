@@ -119,22 +119,8 @@
             <h3>What Makes Tera Hoster Awesome</h3>
             <p>We are so proud that we have greatest services</p>
         </div>
-        <div class="col-sm-6">
-            <div class="box sl1 fadesimple">
-                <h4 class="wt-1">Soporte Premiun</h4>
-                <hr>
-                <ul class="wt-list">
-                    <li class="wtl-1">1gb/s port internet</li>
-                    <li class="wtl-2">Based on Cloud Technology</li>
-                    <li class="wtl-3">Latest Web Servers</li>
-                    <li class="wtl-4">Professional Teamwork</li>
-                    <li class="wtl-2">Based on Cloud Technology</li>
-                </ul>
-                <a href="#" class="btn button btn-lg btn-2 red">Read More</a>
-                    <a href="#" class="btn button btn-lg btn-2">Buy Now</a>
-            </div>
-        </div>
-        <div class="col-sm-6">
+       
+        <div class="col-sm-12">
             <div class="box sl2 fadesimple">
                 <h4 class="wt-2">Soporte Gold</h4>
                 <hr>
@@ -145,136 +131,33 @@
                     <li class="wtl-8">Unlimited Free Support</li>
                     <li class="wtl-2">Based on Cloud Technology</li>
                 </ul>
-                <a href="#" class="btn button btn-lg btn-2 red">Read More</a>
-                <a href="#" class="btn button btn-lg btn-2">Buy Now</a>
+                <div id="paypal-button-container-P-55E11441NP2702334MVUPFEY"></div>
+                <script src="https://www.paypal.com/sdk/js?client-id=AfvU2YuISpRhZg_rrbTjm_0-2s_gbxwLEPyL00JDlIKbSyw_RpZ5lxkIPUdCSii59jIThvt51QZnuuWV&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+                <script>
+                  paypal.Buttons({
+                      style: {
+                          shape: 'rect',
+                          color: 'gold',
+                          layout: 'vertical',
+                          label: 'subscribe'
+                      },
+                      createSubscription: function(data, actions) {
+                        return actions.subscription.create({
+                          /* Creates the subscription */
+                          plan_id: 'P-55E11441NP2702334MVUPFEY'
+                        });
+                      },
+                      onApprove: function(data, actions) {
+                        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                      }
+                  }).render('#paypal-button-container-P-55E11441NP2702334MVUPFEY'); // Renders the PayPal button
+                </script>
             </div>
         </div>
      
     </div>
 </section>
-   <!-- section start here -->
-   <section class="list-part">
-    <div class="container">
-        <div class="default-title">
-            <h3>One of the Best Data center in the world</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-        <div class="col-sm-6 col-sm-6 col-xs-12 pl-1">
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-hdd-o fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Based<span> On SSD Space</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <!-- end of section -->
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-microchip fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Multi CPU <span>Latest Intel Processors</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-exchange fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Unlimited <span>Bandwidth</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-database fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Unlimited <span>MySQL and FTP Accounts</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-sm-6 col-xs-12 pl-2">
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-server fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Fully-Managed<span> Dedicated Server Hosting</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-code fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Full-Root <span>And Shell Access (SSH)</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-wordpress fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>The Best <span>Performance to Your Apps!</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-xs-12">
-                <i class="fa fa-sliders fa-2x pull-left" aria-hidden="true"></i>
-                <div class="text">
-                    <h4>Free cPanel <span>With Annual Hosting Plans</span></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-</section>
 
-<section class="arrow-f5-dark">
-    <div class="arrow-red-top-dark"></div>
-</section>
-<!-- new section -->
-<section class="red-section">
-    <div class="container">
-        <div class="col-sm-10">
-            <h3>Fully Managed Hosting Solutions</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quas perferendis expedita architecto at blanditiis veniam error sit nesciunt accusantium cupiditate.</p>
-        </div>
-        <div class="col-sm-2">
-            <span class="on-salebtn"><a href="#" class="button btn btn-2 btn-lg">Read More</a> </span>
-        </div>
-    </div>
-</section>
-<!-- section end -->
-<section class="df-media-3">
-    <div class="container">
-        <div class="col-sm-5">
-            <div class="img-container">
-                <img alt="Dedicated Hosting" src="img/hosting/02.png" class="img-responsive">
-            </div>
-        </div>
-        <div class="col-sm-7">
-            <div class="text-container">
-                <div class="col-sm-12 title">
-                    <h3>Latest Web Hosting Technology</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore expedita, vero molestias quia modi in rem.</p>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="df3-list1">
-                        <li class="df3-1">Fantastic user support 24/7</li>
-                        <li class="df3-2">Best tools for web development</li>
-                        <li class="df3-3">Fixed Prices, No Surprises</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="df3-list2">
-                        <li class="df3-4">No downtime, Fast and Painless</li>
-                        <li class="df3-5">1-Click wordpress Installation</li>
-                        <li class="df3-6">Free Drag and Drop Site Builder</li>
-                    </ul>
-                </div>
-                <div class="buttons">
-                    <a href="#" class="btn button btn-2 red btn-lg">Buy Now</a>
-                    <a href="#" class="btn button btn-2 btn-lg">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- section end -->
  
   
@@ -305,36 +188,10 @@
 
 
     <!-- start of section -->
-    <section class="section-dd-ft">
-        <div class="container fadesimple">
-            <div class="col-sm-4 overflow">
-                <i class="fa fa-code fa-3x pull-left"></i>
-                <div class="text">
-                    <h3>Full Root</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eius repellendus esse qui, ut, suscipit nesciunt repudiandae eaque</p>
-                </div>
-            </div>
-            <div class="col-sm-4 overflow">
-                <i class="fa fa-sliders fa-3x pull-left"></i>
-                <div class="text">
-                    <h3>Scalable Ram</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eius repellendus esse qui, ut, suscipit nesciunt repudiandae eaque</p>
-                </div>
-            </div>
-            <div class="col-sm-4 overflow">
-                <i class="fa fa-undo fa-3x pull-left"></i>
-                <div class="text">
-                    <h3>Daily Backups</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eius repellendus esse qui, ut, suscipit nesciunt repudiandae eaque</p>
-                </div>
-            </div>
-        </div>
-        <!-- section -->
-    </section>
+ 
     <!-- end of section -->
 
-    <!-- faq -->
-    <section class="faq-new">
+    <!--  <section class="faq-new">
         <div class="container">
             <div class="row">
                 <div class="title-new">
@@ -427,7 +284,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+   
     <!-- faq end -->
 
     <!-- start of section -->
